@@ -1,0 +1,90 @@
+@font-face {
+    font-family: 'Open Sauce Sans';
+    src: url(../assets/fonts/OpenSauceSans-Bold.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Open Sauce Sans';
+    src: url(../assets/fonts/OpenSauceSans-Regular.ttf);
+    font-weight: 400;
+}
+
+.gradient-background {
+    background: linear-gradient(300deg, #74ebd5, #ACB6E5, #6dd5ed);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+
+@keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+}
+
+.profile-img {
+    border-radius: 50%;
+    height: 100px;
+  }
+  
+body {
+    font-family: 'Open Sauce Sans', sans-serif;
+    text-align: center;
+}
+
+h1{
+    font-family: 'Open Sauce Sans', sans-serif;
+    font-weight: 700;
+}
+
+p{
+    font-family: 'Open Sauce Sans', sans-serif;
+    font-weight: 400;
+}
+
+hr{
+  border: dotted #66f0f0 10px;
+  border-bottom: none;
+  width: 4%;
+  margin: 80px auto;
+}
+
+h2 h3 {
+  font-family: 'Open Sauce Sans', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+.parent {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr;
+  grid-template-rows: repeat(1, 1fr);
+  width: 50%;
+  margin: 100px auto 0 auto;
+  text-align: left;
+  row-gap: 2rem;
+}
+
+a {
+  color: #11999e;
+  font-family: "Montserrat", sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+.bottom-container {
+  padding: 70px 0 40px;
+}
+
+.copyright {
+  color: #eaf6f6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
